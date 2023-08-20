@@ -18,5 +18,10 @@ public class SpringBootPrometheusApplication {
 		return "Prometheus Test";
 	}
 	
+	@GetMapping("v1/testapp")
+	public String apptest() {
+		return "Prometheus Test";
+	}
+	
 
 }
